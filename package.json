@@ -1,0 +1,23 @@
+{
+  "name": "dcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwknz/dcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwknz/dcp/issues"
+  },
+  "homepage": "https://github.com/jwknz/dcp#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
