@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Problem #1</h1>
+    <h2>Difficulty: Easy</h2>
+
+    <blockquote>
+        Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+        <br><br>
+        For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+        <br><br>
+        <strong>Bonus: Can you do this in one pass?</strong>
+    </blockquote>
+
+    <hr>
+
+    <pre style="background-color: dodgerblue; font-weight:bold; color:yellow">
+        <code>
+    let n1 = [10, 15, 3, 7]
+    let k = 17
+
+    n1.filter((nm, i) => n1
+        .map(n2 => (k === n2 + nm) 
+        ? "TRUE" : null).join("")
+    ).length > 0
+        </code>
+    </pre>
+
+    <div id="app"></div>
+
+    <hr>
+
+    Outcome: Took a while, but got it done..
+
+    <script>
+
+        let n1 = [10, 15, 3, 7]
+        let k = 17
+
+        document.querySelector("#app").innerHTML =
+        
+        n1.filter((nm, i) => n1
+            .map(n2 => (k === n2 + nm) 
+            ? "TRUE" : null).join("")
+        ).length > 0
+
+    </script>
+</body>
+</html>
